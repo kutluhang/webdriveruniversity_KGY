@@ -1,2 +1,0 @@
-# webdriveruniversity_KGY
-webdriveruniversity_YasarHoca
