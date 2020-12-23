@@ -3,7 +3,11 @@
 <suite name="Basic Test Suite">
     <test name="Basic Test Group">
         <classes>
-            <class name="org.cb.ta.HomePageTest">
+<!--            <class name="org.cb.ta.HomePageTest">-->
+<!--            </class>-->
+<!--            <class name="org.cb.ta.ClickbuttonPageTest">-->
+<!--            </class>-->
+            <class name="org.cb.ta.ToDoListTest">
             </class>
         </classes>
     </test> <!-- Test -->

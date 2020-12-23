@@ -29,9 +29,9 @@ public class HomePage {
         nav_title.isDisplayed();
         System.out.println("title displayed");
     }
-    public void islinkanabled(){
+    public boolean islinkanabled(){
         buttonlink=driver.findElement(By.xpath("//a[@id='button-clicks']"));
-        buttonlink.isEnabled();
+        return buttonlink.isEnabled();
     }
 
     public void clickbuttonlink(){
@@ -39,6 +39,11 @@ public class HomePage {
         buttonlink.click();
         System.out.println("buttonlink  clicked");
 
+    }
+    public boolean clickToDoListLink(){
+        buttonlink = driver.findElement(By.xpath("//a[@id ='to-do-list']"));
+        buttonlink.click();
+        return buttonlink.isDisplayed();
     }
 
 
